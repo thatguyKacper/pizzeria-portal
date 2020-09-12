@@ -2,4 +2,15 @@
 
 .component {
   padding: $base-size;
+  margin-top: $base-size * 4;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    .formInput {
+      min-width: 240px;
+      align-items: flex-start;
+    }
+  }
 }

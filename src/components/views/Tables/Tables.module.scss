@@ -2,4 +2,18 @@
 
 .component {
   padding: $base-size;
+  margin-top: $base-size * 4;
+
+  .formContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dateField {
+    min-width: 240px;
+  }
+
+  .table {
+    margin-top: $base-size * 4;
+  }
 }

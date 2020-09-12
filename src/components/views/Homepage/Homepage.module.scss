@@ -2,4 +2,20 @@
 
 .component {
   padding: $base-size;
+  margin-top: $base-size * 4;
+}
+
+.ordersBoxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ordersBox {
+  padding: $base-size;
+  flex-basis: 40%;
+}
+
+.table {
+  padding: $base-size;
+  margin-top: $base-size * 3;
 }

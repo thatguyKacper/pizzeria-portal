@@ -2,4 +2,35 @@
 
 .component {
   padding: $base-size;
+  margin-top: $base-size * 4;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formControl {
+  min-width: 240px;
+  margin-top: $base-size * 2;
+}
+
+.listsBox {
+  display: flex;
+  margin-top: $base-size * 2;
+  flex-wrap: wrap;
+}
+
+.list {
+  min-width: 240px;
+}
+
+.orderSummary {
+  margin-top: $base-size * 4;
+  padding: $base-size;
+  min-width: 240px;
+}
+
+.costSummary {
+  margin-top: $base-size * 4;
+  padding: $base-size;
+  min-width: 240px;
 }
